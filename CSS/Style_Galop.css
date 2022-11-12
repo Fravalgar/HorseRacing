@@ -1,0 +1,59 @@
+body {
+	background-image: url("../Image/Fond de page.jpg");
+	background-repeat : no-repeat;
+	background-size : cover;
+	background-attachment : fixed;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.Menu a {
+	float: left;
+	border-right: 1px solid #bbb;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	transition : all 0.6s;
+}
+
+.Menu a:hover {
+    background-color: green;
+}
+
+h1 {
+	text-align : center;
+    font-size: xx-large;
+}
+
+article {
+	border-top : 5px solid;
+	border-bottom : 2px solid;
+	border-left : 2px solid;
+	border-right : 2px solid;
+	border-color : black;
+	text-indent : 10px;
+	max-width : 900px;
+	margin : auto;
+	background-color : grey;
+	opacity : 0.8;
+}
+
+footer {
+    border : 1px solid;
+	border-color : black;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color : black;
+	color: white;
+	text-align: left;
+    font-size: 10px;
+}

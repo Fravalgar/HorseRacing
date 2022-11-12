@@ -1,0 +1,173 @@
+body {
+	background-image: url("../Image/Fond de page.jpg");
+	background-repeat : no-repeat;
+	background-size : cover;
+	background-attachment : fixed;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.Menu a {
+	float: left;
+	border-right: 1px solid #bbb;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	transition : all 0.6s;
+}
+
+.Menu a:hover {
+	background-color: green;
+}
+
+main {
+	max-width : 1500px;
+	margin : auto;
+}
+
+h1 {
+	text-align : center;
+    font-size: xx-large;
+}
+
+article {
+	border-top : 5px solid;
+	border-bottom : 2px solid;
+	border-left : 2px solid;
+	border-right : 2px solid;
+	border-color : black;
+	text-indent : 10px;
+	max-width : 900px;
+	margin : auto;
+	background-color : grey;
+	opacity : 0.8;
+}
+
+.Décalage {
+	left : 4px;
+}
+
+.slider {
+  width: 800px;
+  margin: 30px auto;
+  position: relative;
+}
+
+.slider-viewport {
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.slider-content {
+  display: grid;
+  grid-auto-flow: column;
+  -webkit-transition: 1s all;
+  transition: 1s all;
+}
+
+.slider-content img {
+  width: 800px;
+  height: 400px;
+}
+
+.slider-nav {
+  position: absolute;
+  width: 100%;
+  bottom: -30px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.slider-nav a {
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.3);
+          box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.3);
+  display: inline-block;
+  background-color: black;
+  width: 15px;
+  height: 15px;
+  margin: 0 3px;
+}
+
+.slider-nav a:hover {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.8);
+          box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.8);
+}
+
+.contenant {
+	position : relative;
+	text-align : right bottom;
+}
+
+.TexteImage {
+	position : absolute;
+	top : 85%;
+	left : 1%;
+	transform : translate (-50%, -50%);
+	font-size : xx-large;
+	color : black;
+}	
+
+#img2:target .slider-content {
+  -webkit-transform: translateX(-800px);
+          transform: translateX(-800px);
+}
+
+#img3:target .slider-content {
+  -webkit-transform: translateX(-1600px);
+          transform: translateX(-1600px);
+}
+
+#img4:target .slider-content {
+  -webkit-transform: translateX(-2400px);
+          transform: translateX(-2400px);
+}
+
+html { scroll-behavior: smooth; }
+
+a {
+	color : white;
+	background-color : #333;
+	text-decoration : none;
+}	
+
+button:hover {
+	background-color : green;
+}
+
+.pull-right  {
+	float : right;
+	background-color : #333;
+	margin-bottom : 70px;
+}
+
+.pull-right a:hover {
+	background-color: green;
+}
+
+.BtnHautDePage a:hover {
+	background-color : green;
+}
+
+
+footer {
+    border : 1px solid;
+	border-color : black;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color : black;
+	color: white;
+	text-align: left;
+    font-size: 10px;
+}
