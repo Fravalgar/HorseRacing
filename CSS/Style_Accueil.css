@@ -1,16 +1,27 @@
+/*Contenu du body*/
+
 body {
-	background-image: url("../Image/Fond de page.jpg");
+	background-image: url("../Image/Background.jpg");
 	background-repeat : no-repeat;
 	background-size : cover;
 	background-attachment : fixed;
 }
+
+/*Police de caractère*/
+
+@font-face {
+        font-family : "Copperplate Gothic"
+        src: url("Copperplate Gothic Bold Regular.ttf") format("ttf");
+    }
+
+/*Barre de menu*/
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
 }
 
 .Menu a {
@@ -28,15 +39,22 @@ ul {
 	background-color: green;
 }
 
+/*Contenu pricipal*/
+
 main {
 	max-width : 1500px;
 	margin : auto;
 }
 
+/*Titre*/
+
 h1 {
 	text-align : center;
-    font-size: xx-large;
+    font-size: 80px;
+    color : white;
 }
+
+/*Article*/
 
 article {
 	border-top : 5px solid;
@@ -51,9 +69,7 @@ article {
 	opacity : 0.8;
 }
 
-.Décalage {
-	left : 4px;
-}
+/*Slider*/
 
 .slider {
   width: 800px;
@@ -98,7 +114,7 @@ article {
 }
 
 .slider-nav a:hover {
-  background-color: #fff;
+  background-color: green;
   -webkit-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.8);
           box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.8);
 }
@@ -110,11 +126,12 @@ article {
 
 .TexteImage {
 	position : absolute;
-	top : 85%;
+	top : 82%;
 	left : 1%;
 	transform : translate (-50%, -50%);
 	font-size : xx-large;
-	color : black;
+	color : white;
+    text-decoration: underline;
 }	
 
 #img2:target .slider-content {
@@ -132,22 +149,39 @@ article {
           transform: translateX(-2400px);
 }
 
+/*Lien hypertexte*/
+
+a.Link {
+    text-decoration: underline;
+    color: blue;
+}
+
+/*Video youtube*/
+
+
+conteneur.Video {
+    display: flex;
+    justify-content: center;
+}
+
+/*Bouton haut de page*/
+
 html { scroll-behavior: smooth; }
 
-a {
+a.Button {
 	color : white;
-	background-color : #333;
 	text-decoration : none;
-}	
+}
 
-button:hover {
+Button:hover {
 	background-color : green;
 }
 
 .pull-right  {
 	float : right;
-	background-color : #333;
 	margin-bottom : 70px;
+    background-color: #333;
+    border-color: #333;
 }
 
 .pull-right a:hover {
@@ -158,6 +192,7 @@ button:hover {
 	background-color : green;
 }
 
+/*Footer*/
 
 footer {
     border : 1px solid;
