@@ -1,15 +1,19 @@
+/*Contenu du body*/
 body {
-	background-image: url("../Image/Fond de page.jpg");
+	background-image: url("../Image/Background.jpg");
 	background-repeat : no-repeat;
 	background-size : cover;
 	background-attachment : fixed;
 }
+
+/*Barre de menu*/
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
 }
 
 .Menu a {
@@ -27,10 +31,22 @@ ul {
     background-color: green;
 }
 
+/*Cpntenu principal*/
+
+main {
+    max-width : 1500px;
+	margin : auto;
+}
+
+/*Titre*/
+
 h1 {
 	text-align : center;
-    font-size: xx-large;
+    font-size: 80px;
+    color: white;
 }
+
+/*Article*/
 
 article {
 	border-top : 5px solid;
@@ -44,6 +60,68 @@ article {
 	background-color : grey;
 	opacity : 0.8;
 }
+
+h2 {
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size : 40px;
+}
+
+
+article.inside {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-indent: : 2px;
+}
+
+h3 {
+    color: white;
+}
+
+h3.InsideTitle {
+    text-decoration: underline;
+}
+
+p {
+    color: white;
+    margin-left: 10px;
+ }
+
+a.Link {
+    text-decoration: underline;
+    color: blue;
+}
+
+/*Bouton haut de page*/
+
+html { scroll-behavior: smooth; }
+
+a.Button {
+	color : white;
+	text-decoration : none;
+}
+
+Button:hover {
+	background-color : green;
+}
+
+.pull-right  {
+	float : right;
+	margin-bottom : 70px;
+    background-color: #333;
+    border-color: #333;
+}
+
+.pull-right a:hover {
+	background-color: green;
+}
+
+.BtnHautDePage a:hover {
+	background-color : green;
+}
+
+/*Footer*/
 
 footer {
     border : 1px solid;
