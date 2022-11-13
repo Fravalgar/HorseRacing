@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>The Horse racing world </title>
-  <link href="../CSS/Style_Accueil.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>The Horse racing world </title>
+    <link href="../CSS/Style_Accueil.css" rel="stylesheet">
 </head>
 <body>
 
 	<header>
+        
+        <!--Barre de Menu-->
 		<ul class="Menu">
 			<li><a href="Accueil.html">Home page</a></li>
 			<li><a href="Le_Trot.html">The trot</a></li>
 			<li><a href="Le_Galop.html">The gallop</a></li>
 			<li><a href="Le_Steeple.html">The steeple chase</a></li>
 		</ul>
+        
 	</header>
 	
 	<main>
+        
 	<h1>The horse racing world</h1>
+        
+    <!--Slider d'image sur les différentes courses-->
 	<div class="slider">
         <div class="slider-viewport">
           <div id="img1">
@@ -26,22 +32,22 @@
                 <div id="img4">
                     <div class="slider-content">
 						<section class="contenant">
-							<img src="../Image/CourseDeTrotAttel%C3%A9.jpg"
+							<img src="../Image/HarnessTrotRace.jpg"
                                  alt="Photo of a harness trot race">
 							<section class="TexteImage">Harness trot race : </section>
 						</section>
 						<section class="contenant">
-							<img src="../Image/CourseDeTrotMont%C3%A9.jpg"
+							<img src="../Image/MountedTrotRace.jpg"
                                  alt="Photo of a mounted trot race">
 							<section class="TexteImage">Mounted trot race : </section>
 						</section>
 						<section class="contenant">
-							<img src="../Image/CourseDeGalop.jpg"
+							<img src="../Image/GallopRace.jpg"
                                  alt="Photo of a gallop race">
 							<section class="TexteImage">Gallop race : </section>
 						</section>
 						<section class="contenant">
-							<img src="../Image/CourseDeSteeple.jpg"
+							<img src="../Image/SteepleRace.jpg"
                                  alt="Photo of a steeple chase race">
 							<section class="TexteImage">Steeple chase race : </section>
 						</section>
@@ -61,16 +67,24 @@
 	
 		<br>
 		<br>
-		
+        
+        <!--Les différents articles du site-->
+		<article>
+            <h2>History</h2>
+            <p>Horse racing first appeared at the Olympic Games in 776 BC, but the real apparition of the horse racing is not definied.In 600 BC.</p>
+            <p>The first racetrack appear, in 599 BC, in Rome by order of  <a class="Link" href ="https://en.wikipedia.org/wiki/Lucius_Tarquinius_Priscus"> Tarquin the Elder</a>.</p>
+            <p></p>
+        </article>
+        <br>
 		<article>
 			<section class="BackgroundOpacity">
                 <h2>The Trot</h2>
                 <p>On this page, you will find all the information concerning trotting races:</p>
-                    <li>Harness races</li>
-                    <li>Mounted races</li>
-                    <li>The biggest racetracks in France</li>
-                    <li>The greatest races</li>
-                    <li>The <strong>top 3</strong> of the best horses in each category</li>
+                    <p>• Harness races</p>
+                    <p>• Mounted races</p>
+                    <p>• The biggest racetracks in France</p>
+                    <p>• The greatest races</p>
+                    <p>• The <strong>top 3</strong> of the best horses in each category</p>
             </section>
 			<br>
 		</article>
@@ -79,9 +93,9 @@
 			<section class="BackgroundOpacity">
                 <h2>Le Galop</h2>
                 <p>On this page, you will find all the information concerning gallop races :</p> 
-                    <li>The biggest racetracks in France</li>
-                    <li>The greatest races</li>
-                    <li>The <strong>top 3</strong> of the best horses</li>
+                    <p>• The biggest racetracks in France</p>
+                    <p>• The greatest races</p>
+                    <p>• The <strong>top 3</strong> of the best horses</p>
 			<br>
             </section>
 		</article>
@@ -90,19 +104,37 @@
 			<section class="BackgroundOpacity">
                 <h2>The Steeple Chase</h2>
                 <p>On this page, you will find all the information concerning on steeple chase races :</p>
-                <li>The biggest racetracks in France</li>
-                <li>The greatest races</li>
-                <li>The <strong>top 3</strong> of the best horses</li>
+                <p>• The biggest racetracks in France</p>
+                <p>• The greatest races</p>
+                <p>• The <strong>top 3</strong> of the best horses</p>
 			<br>
             </section>
 		</article>
-		<br>
+        
+        
+        <br>
+        <br>
+        
+        <!--Intégration d'une video youtube-->
+        <conteneur class="Video">
+        <iframe width="1120" height="630" src="https://www.youtube.com/embed/1L3HGE3nx-Q" title="C'est pas sorcier - COURSES HIPPIQUES" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </conteneur>
+        
+        <br>
+        <br>
+        
+        <!--Bouton haut de page-->
 		<section class="BtnHautDePage">
-		<button class="pull-right"><a href="#" class="btn btn-primary">Haut de Page</a></button>
+		<button class="pull-right"><a class="Button" href="#" class="btn btn-primary">Top of page</a></button>
 		</section>
+        
+        <br>
+        <br>    
 	</main>
-	
-	<footer>	
+    
+    <!--Création de la barre de footer-->
+	<footer>
         <p>Copyright © 2022 HorseRaces - Tous droits réservés</p>
     </footer>
+    
 </body>
